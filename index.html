@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        body{
+            background: #CCC;
+        }
+
+        #site{
+            width: 1024px;
+            margin: 10px auto;
+            background: #FFF;
+        }
+
+        #caixa1{
+            width:400px;
+            border:1px solid #000;
+            background: #F00;
+            height:300px;
+            float: left;
+        }
+        #caixa2{
+            width:400px;
+            border:1px solid #000;
+            background: #00F;
+            height:300px;
+            float:right
+        }
+        #caixa-baixo{
+            width: 100%;
+            background: #0F0;
+            height:100px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="site">
+        <div id="caixa1"> caixa 1</div>
+        <div id="caixa2">caixa 2</div>
+        <div id="caixa-baixo"> caixa baixo</div>
+        
+    </div>
+    
+</body>
+</html>
